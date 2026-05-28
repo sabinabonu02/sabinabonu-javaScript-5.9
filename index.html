@@ -9,11 +9,12 @@
   <body>
     <div class="container">
       <div class="left-side">
+        <img src="/logo.svg" alt="logo" class="logo" />
         <img src="/bg.jpg" alt="iintoo brand image" class="left-main-img" />
       </div>
 
       <div class="right-side">
-        <h1>Get iintoo it today</h1>
+        <h1 class="title">Get iintoo it today</h1>
 
         <p class="h1">There is no charge or obligation upon registration.</p>
 
@@ -23,15 +24,25 @@
           <button class="linkedin"><img src="linkedin.svg" alt="LinkedIn" /> Register with LinkedIn</button>
         </div>
 
-        <div class="or">or</div>
-
-        <div class="input-space">
-          <input type="email" placeholder="Email" />
-
-          <input type="tel" placeholder="Phone" />
+        <div class="divider">
+          <span>or</span>
         </div>
 
-        <h3>What type of investor are you?</h3>
+        <div class="input-space">
+
+         <div class="input-box">
+          <input type="email" required/>
+          <label>Email</label>
+         </div>
+
+         <div class="input-box">
+          <input type="tel" required />
+          <label>Phone</label>
+         </div>
+
+        </div>
+
+        <h3 class="title">What type of investor are you?</h3>
 
         <p class="h3">Select the type of investor you are below.</p>
 
@@ -69,7 +80,7 @@
             <input type="checkbox" id="agreement" />
             <label for="agreement">
                 I agree to the terms and notifications of iintoo 
-                <a href="#">View full Terms</a>.
+                <a class="view" href="#">View full Terms</a>.
             </label>
         </div>
 
