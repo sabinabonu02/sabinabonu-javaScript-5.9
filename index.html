@@ -1,13 +1,80 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project1</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="container">
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-side">
+        <img src="/bg.jpg" alt="iintoo brand image" class="left-main-img" />
+      </div>
+
+      <div class="right-side">
+        <h1>Get iintoo it today</h1>
+
+        <p class="h1">There is no charge or obligation upon registration.</p>
+
+        <div class="social-buttons">
+          <button class="facebook"><img src="facebook.svg" alt="Facebook" /> Register with Facebook</button>
+
+          <button class="linkedin"><img src="linkedin.svg" alt="LinkedIn" /> Register with LinkedIn</button>
+        </div>
+
+        <div class="or">or</div>
+
+        <div class="input-space">
+          <input type="email" placeholder="Email" />
+
+          <input type="tel" placeholder="Phone" />
+        </div>
+
+        <h3>What type of investor are you?</h3>
+
+        <p class="h3">Select the type of investor you are below.</p>
+
+        <div class="radio-buttons">
+          <label class="tooltip">
+            <input type="radio" name="investor" value="individual" />
+            Individual
+
+            <span class="tooltip-text"> Personal Investment Account </span>
+          </label>
+
+          <label class="tooltip">
+            <input type="radio" name="investor" value="business" />
+            Business
+
+            <span class="tooltip-text"> Business Investment Account </span>
+          </label>
+
+          <label class="tooltip">
+            <input type="radio" name="investor" value="ira" />
+            IRA
+
+            <span class="tooltip-text"> Individual Retirement Account </span>
+          </label>
+
+          <label class="tooltip">
+            <input type="radio" name="investor" value="trust" />
+            Trust
+
+            <span class="tooltip-text"> Trust Investment Account </span>
+          </label>
+        </div>
+
+        <div class="agreement">
+            <input type="checkbox" id="agreement" />
+            <label for="agreement">
+                I agree to the terms and notifications of iintoo 
+                <a href="#">View full Terms</a>.
+            </label>
+        </div>
+
+        <button class="create-account">Create Account</button>
+      </div>
+    </div>
+  </body>
 </html>
